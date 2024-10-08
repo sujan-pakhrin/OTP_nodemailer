@@ -4,7 +4,7 @@ const db = mysql.createConnection({
   host: "localhost",
   user: "root",
   password: "12345",
-  database: "otp",
+  database: "opt",
 });
 
 db.connect((err) => {
@@ -12,4 +12,4 @@ db.connect((err) => {
   console.log("Connected to MySQL Database");
 });
 
-export default  db;
+export default db;
